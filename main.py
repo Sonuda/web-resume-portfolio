@@ -12,7 +12,7 @@ def hello():
 @app.route('/download_resume')
 def download_resume():
     # Send the file from the 'static' folder with attachment disposition
-    return send_from_directory('static', 'files/Kashish_resume_05.pdf', as_attachment=True)
+    return send_from_directory('static', 'files/Kashish_resume_06.pdf', as_attachment=True)
 
 
 if __name__ == '__main__':
